@@ -1,0 +1,23 @@
+{
+  "name": "liqfinity",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "anjay"
+  ],
+  "homepage": "https://github.com/YoaTzy/liqfinity-bot#readme",
+  "bugs": {
+    "url": "https://github.com/YoaTzy/liqfinity-bot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoaTzy/liqfinity-bot.git"
+  },
+  "license": "ISC",
+  "author": "Yoake",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
