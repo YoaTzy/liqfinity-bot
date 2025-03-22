@@ -1,23 +1,30 @@
 {
-  "name": "liqfinity",
+  "name": "liqfinity-bot",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [
-    "anjay"
-  ],
-  "homepage": "https://github.com/YoaTzy/liqfinity-bot#readme",
-  "bugs": {
-    "url": "https://github.com/YoaTzy/liqfinity-bot/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/YoaTzy/liqfinity-bot.git"
-  },
-  "license": "ISC",
-  "author": "Yoake",
-  "type": "commonjs",
+  "description": "Auto Stake/Unstake Bot & Liquidity Mining Tool for Liqfinity",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "liqfinity",
+    "bot",
+    "staking",
+    "liquidity",
+    "mining",
+    "crypto"
+  ],
+  "author": "https://t.me/yoakeid",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "chalk": "^4.1.2",
+    "fs": "0.0.1-security",
+    "readline": "^1.3.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
   }
 }
